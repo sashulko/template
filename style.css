@@ -33,14 +33,15 @@ a {
   align-items: center;
 }
 .btn-header {
-  padding: 20px;
-  margin: 5px;
   display: block;
   margin: 0 auto;
+  background-color: #3f76f6;
   color: #ffffff;
-  background-color: #4985ff;
-  border-radius: 20px;
-  border-color: transparent;
+  padding: 12px 28px;
+  border: transparent;
+  border-radius: 25px;
+  font-size: 14px;
+  margin-bottom: 40px;
 }
 .header-text {
   font-family: "Montserrat", sans-serif;
@@ -75,14 +76,15 @@ a {
   justify-content: flex-end;
 }
 .btn-section {
-  padding: 20px;
-  margin: 5px;
   display: block;
   margin: 0 auto;
+  background-color: #3f76f6;
   color: #ffffff;
-  background-color: #4985ff;
-  border-radius: 20px;
-  border-color: transparent;
+  padding: 12px 28px;
+  border: transparent;
+  border-radius: 25px;
+  font-size: 14px;
+  margin-bottom: 40px;
 }
 .section-one {
   display: flex;
@@ -235,3 +237,111 @@ a {
   text-align: center;
 }
 
+.analysis-section {
+  background: linear-gradient(#5a00e0 50%, #ffffff 50%);
+  padding: 60px 0;
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.work-analysis {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 146%;
+  letter-spacing: 0%;
+}
+
+.btn-work {
+  background-color: #3f76f6;
+  color: #ffffff;
+  padding: 12px 28px;
+  border: transparent;
+  border-radius: 25px;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.works-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.work-card {
+  color: #000;
+  border-radius: 8px;
+  width: 350px;
+}
+
+.work-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.work-card h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.works-text {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.work-card a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.analysis-wrap {
+  display: flex;
+  align-items: center;
+  
+}
+         
+
+
+
+.projects {
+  background-color: #f7f7f9;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.projects-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.projects-subtitle {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+.projects-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 30px 0;
+}
+
+.projects-btn {
+  background-color: #3f76f6;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 32px;
+  font-size: 14px;
+}
